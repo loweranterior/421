@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>421 Trading - Providing Liquidity in Cryptoassets</title>
+    <!-- Google Fonts에서 Roboto 폰트 불러오기 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif; /* 폰트를 Roboto로 변경 */
+            margin: 0;
+            padding: 0;
+            color: black;
+            background: linear-gradient(to bottom, #e0e0e0, #ffffff);
+            min-height: 100vh;
+        }
+        header {
+            display: flex;
+            justify-content: center; /* 상단 네비게이션 바를 가운데 정렬 */
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: rgba(0, 0, 0, 0.9); /* 배경을 더 진한 검정으로 변경 */
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+            position: absolute;
+            left: 2rem; /* 로고를 왼쪽에 고정 */
+        }
+        nav {
+            display: flex;
+            justify-content: center; /* 네비게이션 메뉴를 중앙에 배치 */
+            flex-grow: 1; /* 네비게이션이 가능한 한 넓은 공간을 차지하도록 설정 */
+        }
+        nav a {
+            color: white; /* 링크 글자색을 흰색으로 변경 */
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-size: 1.1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1.5rem;
+            color: black;
+        }
+        p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            max-width: 900px;
+            margin: 0 auto;
+            color: black;
+        }
+        .about-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 4rem;
+        }
+        .circle-graphic {
+            width: 300px;
+            height: 300px;
+            border: 3px dashed #666;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .inner-circle {
+            width: 250px;
+            height: 250px;
+            background: linear-gradient(to right, #f44336, #9c27b0, #3f51b5);
+            border-radius: 50%;
+        }
+        small {
+            font-size: 0.9rem;
+            color: #666;
+            display: block;
+            margin-bottom: 0.5rem;
+        }
+        .about-text {
+            max-width: 600px;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: black;
+        }
+        a {
+            color: #64b5f6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .services-section {
+            margin-top: 4rem;
+        }
+        .services-section h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .services-section p {
+            margin-bottom: 3rem; /* 두 줄 띄우기 위한 여백 추가 */
+            line-height: 2rem; /* 두 줄 간격 추가 */
+        }
+        .services-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .service-box {
+            padding: 2rem;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .service-box h3 {
+            font-size: 1.75rem;
+            margin-bottom: 1rem;
+        }
+        .service-box p {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <strong style="color: white; font-size: 2rem;">421 Trading</strong>
+        </div>
+        <nav>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Unlocking Liquidity, Driving Innovation</h1>
+        <p>421 Trading, we provide the liquidity that institutional investors seek to safely and efficiently capitalize on opportunities in the cryptoasset space.</p>
+        <div class="about-section">
+            <div class="about-text">
+                <small>ABOUT 421 Trading</small>
+                <h2>Leaders in investing + technology.<br>Decades of expertise.</h2>
+                <a href="#">Learn More →</a>
+            </div>
+            <div class="circle-graphic">
+                <div class="inner-circle"></div>
+            </div>
+        </div>
+
+        <!-- 추가된 서비스 섹션 -->
+        <div class="services-section">
+            <h2>Services for All Stages</h2>
+            <p>Explore our solutions, designed to meet your specific business needs.</p> <!-- 두 줄 간격 추가 -->
+            <div class="services-container">
+                <div class="service-box">
+                    <h3>Market Making</h3>
+                    <p>We provide a broad range of offerings, from liquidity solutions on centralized (CEX) and decentralized exchanges (DEX) to innovative financial instruments including options and loans. With our extensive network across more than 20 top exchanges and deep expertise in algorithmic trading and finance, we deliver deep liquidity to create efficient markets for your token. This not only stabilizes the market but also optimizes the trading experience for your token holders.</p>
+                </div>
+                <div class="service-box">
+                    <h3>OTC / Investments</h3>
+                    <p>This service is meticulously customized, ensuring that we cater to your unique requirements. We prioritize enabling seamless token transactions while minimizing the risk of adverse impacts on the token's value. Our flexible terms are designed not only to meet immediate needs but also to foster long-term growth and sustainability. This client-centric strategy underscores our commitment to providing solutions that align with your objectives.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Exchange Listing Services</h3>
+                    <p>We offer comprehensive guidance to enhance your presence across various exchanges, providing liquidity and facilitating listings that meet specific exchange requirements. This complimentary service for our partners ensures a smooth listing process and boosts market presence, reflecting our commitment to tailored and effective liquidity solutions.</p>
+                </div>
+                <div class="service-box">
+                    <h3>Development Services</h3>
+                    <p>Understanding the challenge of finding top-tier developers for web3 projects, we provide bespoke development services tailored to your unique needs. Our goal is to offer expert, flexible technical support, ensuring your web3 initiatives are launched and executed to the highest development standards.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
