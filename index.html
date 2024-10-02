@@ -172,6 +172,31 @@
             border-radius: 8px;
         }
 
+        /* 여백 추가 */
+        .additional-partner-text {
+            margin-top: 2rem; /* 거래소 로고 아래 여백 */
+        }
+
+        /* Venture Capital 이미지 섹션 CSS 추가 */
+        .vc-logos {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 가로 4개 */
+            gap: 2rem;
+            justify-items: center;
+            align-items: center;
+            margin-top: 2rem;
+        }
+        .vc-logos img {
+            width: 150px;
+            height: 100px;
+            object-fit: contain;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
         /* 푸터 추가 */
         footer {
             display: flex;
@@ -249,16 +274,23 @@
                 <img src="https://iq.wiki/cdn-cgi/image/width=3840,format=auto,quality=95/https://ipfs.everipedia.org/ipfs/QmZs3yZA7Tv9UT4xKfbxJer2C283X4ZLyerigJCZxaUtDr" alt="Upbit">
                 <img src="https://liquidityfinder.com/_next/image?url=https%3A%2F%2Flfapi.liquidityfinder.com%2Fassets%2F80eaeefe-9123-4840-bafb-60a681a208be&w=3840&q=75" alt="Bitget">
                 <img src="https://www.investopedia.com/thmb/y9YGSUonlVJRAou-BUe6JNdH3M4=/fit-in/1500x750/filters:format(png):fill(white):max_bytes(150000):strip_icc()/Bitinex-bb10af8a82d048fb8e6c28968db7916f.jpg" alt="Bitfinex">
-                <img src="https://mma.prnewswire.com/media/1828517/Gate_Logo.jpg?p=facebook" alt="Gate.io">
-                <img src="https://cdn2.downdetector.com/static/uploads/logo/crypto-com.png" alt="Crypto.com">
-                <img src="https://logowik.com/content/uploads/images/mexc-global6000.jpg" alt="MEXC">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKxdncvJ42alnJhGlXW9AUxozKrFC50Y-F2w&s" alt="DigiFinex">
-                <img src="https://logowik.com/content/uploads/images/xtcom7297.jpg" alt="XT.com">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTfrFKSDW31bCOyccWGq4sRcSlIaMkz0Xx0A&s" alt="Probit">
-                <img src="https://mma.prnasia.com/media2/2391903/image_ID__Logo.jpg?p=medium600" alt="Htx">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtikHjSU5MPEPqn4TXKOh2f4d-mVbe7iKgBA&s" alt="LBank">
-                <img src="https://forkast.news/wp-content/uploads/2022/02/gopax-1260x945.png" alt="Gopax">
-                <img src="https://logowik.com/content/uploads/images/bitmart3732.jpg" alt="Bitmart">
+            </div>
+            <!-- 텍스트와 거래소 로고 사이에 여백 추가 -->
+            <div class="additional-partner-text" style="margin-top: 8rem;">
+                <h2>Venture Capital & Portfolio</h2>
+                <p>421 invests in pre-seed and seed stage companies.</p>
+
+                <!-- 추가된 이미지 섹션 -->
+                <div class="vc-logos">
+                    <img src="https://cryptoslate.com/wp-content/uploads/2022/05/onyxcoin-xcn-chain-social.jpg" alt="VC1">
+                    <img src="https://f1.tvcc.kr/2020/01/573qhzn8q6.png" alt="VC2">
+                    <img src="https://dropsearn.fra1.cdn.digitaloceanspaces.com/static/projects/logos/pip_logo.webp" alt="VC3">
+                    <img src="https://s3.coinmarketcap.com/static-gravity/image/19110f813964459aad275b3d5e0d16cb.png" alt="VC4">
+                    <img src="https://wiki1.kr/images/thumb/3/38/%EB%B3%B4%EB%9D%BC%ED%86%A0%ED%81%B0_%EA%B8%80%EC%9E%90.png/300px-%EB%B3%B4%EB%9D%BC%ED%86%A0%ED%81%B0_%EA%B8%80%EC%9E%90.png" alt="VC5">
+                    <img src="https://miro.medium.com/v2/resize:fit:2400/1*3EslqGvyJV2lLM3G7Lz8dA.png" alt="VC6">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqrGaGRm1yundLtvK4rlwbWZSw7OShxk4CQA&s" alt="VC7">
+                    <img src="https://coin-images.coingecko.com/coins/images/15405/large/vixco.png?1696515051" alt="VC8">
+                </div>
             </div>
         </div>
     </main>
