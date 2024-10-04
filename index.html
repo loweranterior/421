@@ -21,7 +21,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 1rem 2rem;
+            padding: 1.5rem 2rem; /* 패딩을 1.5rem로 변경 */
             background-color: rgba(0, 0, 0, 0.9);
         }
         .logo {
@@ -44,6 +44,12 @@
         nav a:hover {
             text-decoration: underline;
         }
+        /* About과 Service 링크를 숨기기 위한 CSS */
+        nav a:first-child, /* 첫 번째 링크 (About) */
+        nav a:nth-child(2) { /* 두 번째 링크 (Service) */
+            display: none;
+        }
+
         main {
             padding: 4rem 2rem;
             max-width: 1200px;
@@ -163,10 +169,10 @@
         }
         .partners-logos img {
             width: 150px;
-            height: 100px; /* 고정된 높이 설정 */
-            object-fit: contain; /* 이미지를 비율을 유지하며 크기를 조정 */
+            height: 100px;
+            object-fit: contain; /* 이미지의 비율을 유지하고 크기 고정 (수정됨) */
             padding: 10px;
-            background-color: white; /* 배경색을 흰색으로 설정 */
+            background-color: white;
             border: 1px solid #e0e0e0;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
@@ -189,7 +195,7 @@
         .vc-logos img {
             width: 150px;
             height: 100px;
-            object-fit: contain;
+            object-fit: contain; /* 이미지의 비율을 유지하고 크기 고정 (수정됨) */
             padding: 10px;
             background-color: white;
             border: 1px solid #e0e0e0;
@@ -264,7 +270,8 @@
 
             .partners-logos img, .vc-logos img {
                 width: 100px;
-                height: auto;
+                height: 100px; /* 고정된 높이를 유지 */
+                object-fit: contain; /* 이미지의 비율을 유지하고 크기 고정 (수정됨) */
             }
         }
     </style>
